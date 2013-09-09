@@ -51,9 +51,9 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'cotacaomoedahoje.urls'
+ROOT_URLCONF = 'urls'
 
-WSGI_APPLICATION = 'cotacaomoedahoje.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 TEMPLATE_DIRS = ()
 
